@@ -1,0 +1,86 @@
+body {
+  background-color: #393e46;
+}
+
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+  margin: 0 50px;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 7rem;
+  color: #4ecca3;
+}
+
+h3 {
+  font-size: 1.125rem;
+  color: #031811;
+  padding: 0.9rem 0.1rem;
+  background-color: white;
+  margin: 4rem 0;
+  border: 4px solid rgb(42, 41, 41);
+  width: 30%;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  /* The Game is HEre  */
+  display: none;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+}
+
+img {
+  width: 60%;
+  /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
+#img3 {
+  width: 230px;
+  margin: 0.6rem auto;
+  height: 230px;
+  /* border: 1px groove #eee; */
+  display: block;
+  /* border-radius: 10px; */
+  box-shadow: none;
+}
+
+button.btn {
+  display: block;
+  margin: 1.5rem auto;
+  border: none;
+  padding: 1.35rem 1.2rem;
+  border-radius: 6px;
+  background-color: #4fcba2a8;
+  color: #eee;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
+  transition: all 0.4s ease-in-out;
+  cursor: pointer;
+}
+
+button.btn:hover {
+  background-color: #172a23a8;
+  color: #c4c4c4;
+}
+
+/* Footer  */
+footer {
+  font-size: 0.75rem;
+  margin-top: 8%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}
