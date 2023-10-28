@@ -30,13 +30,13 @@ function handleClick() {
   img2.src = "images/" + diceArray[secondRandomNumber];
 
   if (firstRandomNumber == secondRandomNumber) {
-    winnerBanner.style.display = "inline-block";
+    winnerBanner.style.display = "block";
     winnerBanner.innerHTML = "<b>It is a Tie... Play Again!</b>";
   } else if (firstRandomNumber > secondRandomNumber) {
-    winnerBanner.style.display = "inline-block";
+    winnerBanner.style.display = "block";
     winnerBanner.innerHTML = `<b>${player} Wins!</b>`;
   } else {
-    winnerBanner.style.display = "inline-block";
+    winnerBanner.style.display = "block";
     winnerBanner.innerHTML = `You Lose!!! <br> Wanna Play Again?`;
   }
 }

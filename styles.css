@@ -1,9 +1,10 @@
 body {
   background-color: #393e46;
+  font-family: "Indie Flower", cursive;
 }
 
 .container {
-  width: 70%;
+  width: 90%;
   margin: auto;
   text-align: center;
 }
@@ -23,14 +24,14 @@ h1 {
 }
 
 h3 {
-  font-size: 1.125rem;
+  font-size: 1.35rem;
   color: #031811;
-  padding: 0.9rem 0.1rem;
+  padding: 0.5rem 0.1rem;
   background-color: white;
-  margin: 4rem 0;
+  margin: 4rem auto;
   border: 4px solid rgb(42, 41, 41);
-  width: 30%;
-  border-radius: 5px;
+  width: 20%;
+  border-radius: 8px;
   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
   /* The Game is HEre  */
   display: none;
@@ -46,7 +47,9 @@ img {
   width: 60%;
   /* box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px; */
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+  filter: drop-shadow(2px 4px 6px black);
 }
+
 #img3 {
   width: 230px;
   margin: 0.6rem auto;
@@ -79,8 +82,12 @@ button.btn:hover {
 /* Footer  */
 footer {
   font-size: 0.75rem;
-  margin-top: 8%;
+  /* margin-top: 8%; */
   color: #eeeeee;
   text-align: center;
-  font-family: "Indie Flower", cursive;
+  position: absolute;
+  bottom: 0;
+  margin-top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
 }
